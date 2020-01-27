@@ -5,8 +5,7 @@ def find_element_index(array, value_to_find)
     array.include?(value_to_find)
       if true
         p array[i]
-      end
-    else puts "value not in index"
+      else puts "value not in index"
 end
 
 def find_max_value(array)
