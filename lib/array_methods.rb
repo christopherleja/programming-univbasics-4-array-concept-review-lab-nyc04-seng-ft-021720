@@ -7,11 +7,11 @@ def find_element_index(array, value_to_find)
 end
 
 def find_max_value(array)
-max_value = []
-  array.length.times do |count|
-    if array[count] > max_value[0]
+  max_value = array[0]
+  array.length.times { |index|
+    if array[index] > max_value
       max_value.unshift(array[count])
-      return max_value[0]
+      return m ax_value[0] }
     end
 end
 
