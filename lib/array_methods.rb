@@ -1,12 +1,12 @@
-def find_element_index(array, value_to_find)
-  length = array.length
+#def find_element_index(array, value_to_find)
+ # length = array.length
     
-  length.times do |index|
-    array.include?(value_to_find)
-      if true
-        p array[index]
-      else puts "value not in index"
-end
+  #length.times do |index|
+   # array.include?(value_to_find)
+    #  if true
+     #   p array[index]
+      #else puts "value not in index"
+#end
 
 def find_max_value(array)
   length = array.length
