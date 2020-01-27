@@ -11,8 +11,8 @@ max_value = []
   array.length.times do |count|
     if array[count] >= max_value
       max_value.unshift(array[count])
+      return max_value[0]
     end
-    max_value[0]
 end
 
 def find_min_value(array)
