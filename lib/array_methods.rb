@@ -3,7 +3,6 @@ def find_element_index(array, value_to_find)
     
   length.times do |i|
     array.include?(value_to_find)
-    i += 1 
       if true
         p array[i]
       end
